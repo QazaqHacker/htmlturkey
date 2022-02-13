@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FRONTEND RUSSIA/Background Video</title>
+  <meta charset="UTF-8" />
+  <style type="text/css" media="screen">
+    body {
+      background:#000;
+      font-family:sans-serif;
+      margin:0px;
+      padding:0px;
+    }
+    .container {
+      text-align: center;
+      margin-top: 200px;
+    }
+    h1 {
+      text-transform: uppercase;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Видео на фоне сайта</h1>
+  </div>
+
+
+  
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="jquery.backgroundvideo.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var videobackground = new $.backgroundVideo($('body'), {
+        "align": "centerXY",
+        "width": 1280,
+        "height": 720,
+        "path": "video/",
+        "filename": "Lake",
+        "types": ["mp4","ogg","webm"],
+        "preload": true,
+        "autoplay": true,
+        "loop": true
+      });
+    });
+  </script>
+
+
+</body>
+</html>

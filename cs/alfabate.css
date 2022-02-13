@@ -1,0 +1,54 @@
+*,:after,:before{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@media(min-width:1054px) {
+.com{float:left;}
+.com{width:50%}
+}
+.share-cancel,.share-closed{
+	border-radius:28px;
+	background-color:#7b1fa2;
+	width:56px
+}
+.vocab-box,.vocab-box-spalan{
+	background:0 0;
+	border:none;
+	padding:0;
+	cursor:pointer
+}
+
+.vocab-box{
+	border-top:1px solid rgba(0,0,0,.09);
+	min-height:74px;
+	position:relative;
+	width:100%;
+	text-align:left;
+	display:block;
+	font:inherit;
+}
+.vocab-box-english{
+	padding:12px 0;
+	color:rgba(0,0,0,.87);
+	font-family:Georgia,serif;
+	font-size:16px;
+	line-height:22px;
+	margin-right:40px;
+	display:block
+}
+.vocab-box-spalan{
+	font:inherit;font-family:Georgia,serif;
+	color:orange;
+	font-size:18px;
+	line-height:24px;
+	margin-right:48px;
+	margin-bottom:8px;
+	display:block
+}
+.z{
+	max-width: 500px;
+	position: relative;
+	left: 35%;
+	top: -90px;
+}
